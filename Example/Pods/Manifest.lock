@@ -1,5 +1,5 @@
 PODS:
-  - RSTextField (0.1.0)
+  - RSTextField (0.1.1)
 
 DEPENDENCIES:
   - RSTextField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RSTextField: 293c01456de4fa4686b67bea8e93cef1914e2785
+  RSTextField: 8b57dedadfee1ba16a34e2b62c8897c1d4747e18
 
 PODFILE CHECKSUM: 4667322c84da497976ed59afd0f7c491f48d51b5
 

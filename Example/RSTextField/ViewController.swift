@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import RSTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customTextField: RSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

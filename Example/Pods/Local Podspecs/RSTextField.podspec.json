@@ -1,8 +1,8 @@
 {
   "name": "RSTextField",
-  "version": "0.1.0",
-  "summary": "A short description of RSTextField.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A Custom Text Field with handy features",
+  "description": "Custom Text Field with handy features that can be useable just by setting the type of your textfield to RSTextField",
   "homepage": "https://github.com/rashedsahaji/RSTextField",
   "license": {
     "type": "MIT",
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/rashedsahaji/RSTextField.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "14.0"
   },
-  "source_files": "RSTextField/Classes/**/*"
+  "swift_versions": "5.2",
+  "source_files": "RSTextField/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "swift_version": "5.2"
 }
