@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RSTextField'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RSTextField.'
+  s.version          = '0.1.1'
+  s.summary          = 'A Custom Text Field with handy features'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Custom Text Field with handy features that can be useable just by setting the type of your textfield to RSTextField'
 
   s.homepage         = 'https://github.com/rashedsahaji/RSTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,8 +26,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rashedsahaji/RSTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.2'
   s.source_files = 'RSTextField/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

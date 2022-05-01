@@ -1,0 +1,16 @@
+PODS:
+  - RSTextField (0.1.0)
+
+DEPENDENCIES:
+  - RSTextField (from `../`)
+
+EXTERNAL SOURCES:
+  RSTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSTextField: 293c01456de4fa4686b67bea8e93cef1914e2785
+
+PODFILE CHECKSUM: 4667322c84da497976ed59afd0f7c491f48d51b5
+
+COCOAPODS: 1.11.2
